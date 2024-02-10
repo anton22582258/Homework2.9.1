@@ -16,11 +16,13 @@ public class EmployeeController {
     private final EmployeeService employeeService;
 
     public EmployeeController(EmployeeService employeeService) {
+
         this.employeeService = employeeService;
     }
 
     @GetMapping(path = "/all")
     public Collection<Employee> all() {
+
         return employeeService.getAll();
     }
 
