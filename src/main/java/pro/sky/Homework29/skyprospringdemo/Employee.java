@@ -17,18 +17,22 @@ public class Employee implements Comparable {
     }
 
     public String getFirstName() {
+
         return firstName;
     }
 
     public String getLastName() {
+
         return lastName;
     }
 
     public double getSalary() {
+
         return salary;
     }
 
     public int getDepartment() {
+
         return department;
     }
 
@@ -52,6 +56,7 @@ public class Employee implements Comparable {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(firstName, lastName, salary, department);
     }
 

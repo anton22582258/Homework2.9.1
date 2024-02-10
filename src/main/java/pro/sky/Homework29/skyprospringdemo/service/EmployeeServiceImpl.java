@@ -18,10 +18,12 @@ public class EmployeeServiceImpl implements EmployeeService {
     private final Map<String, Employee> employees = new HashMap<>(SIZE_LIMIT);
 
     public Collection<Employee> getAll() {
+
         return employees.values();
     }
 
     public String createKey(String firstName, String lastName) {
+
         return firstName + lastName;
     }
 

@@ -9,14 +9,17 @@ public class EmployeeNamesNotCorrect extends RuntimeException {
     }
 
     public EmployeeNamesNotCorrect(String massage) {
+
         super(massage);
     }
 
     public EmployeeNamesNotCorrect(String message, Throwable cause) {
+
         super(message, cause);
     }
 
     public EmployeeNamesNotCorrect(Throwable cause) {
+
         super(cause);
     }
 
